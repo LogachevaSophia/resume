@@ -52,6 +52,11 @@ body {
     margin-top:25px;
 }
 
+ul{
+  position:relative;
+  left:-27px;
+  list-style-position: outside;
+}
  li{
     font-size:0.5em;
 }
