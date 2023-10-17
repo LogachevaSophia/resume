@@ -1,0 +1,86 @@
+body {
+  background-color: #191919;
+  color: rgba(255, 255, 255, 0.81);
+  font-size:calc(24px + 16 * (100vw / 1280));
+  margin-bottom: 250px;
+}
+
+.container {
+  width: 60%;
+  /* background-color: antiquewhite; */
+  height: 100%;
+  margin: 0 auto;
+}
+
+.title {
+  /* background-color: aquamarine; */
+  /* border: 1px solid red; */
+
+  font-weight: bold;
+}
+.fio {
+  font-size: 2rem;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  vertical-align: middle;
+}
+
+.about img {
+  /* width:50%; */
+  width: 100%;
+  max-width: 450px;
+}
+.about > div {
+  width: 100%;
+}
+
+.about .title{
+    font-size:0.75em;
+}
+
+.city{
+    font-style: italic;
+    font-size: 0.45em;
+}
+.education, .skills{
+    margin-top:25px;
+}
+
+ li{
+    font-size:0.5em;
+}
+ul li{
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+hr{
+    color: rgba(223, 84, 82, 1); /*для IE */
+    background-color:rgba(223, 84, 82, 1); /*для Firefox, Opera, Safari*/
+    border:0px none;
+    height:1px; /* высота 1px IE, Firefox, Opera, Safari */
+    clear:both; /* для очистки, если тег идет после float елемента */
+    max-width: 450px;
+    margin: 50px 0;
+}
+/* .experience *:not(:first-child) {
+    font-size:0.5em;
+} */
+.date{
+    font-size:0.5em;
+}
+.company{
+    font-size:0.4em;
+}
+
+@media (max-width: 320px){
+    .container {
+        width:80%
+    }
+
+}
